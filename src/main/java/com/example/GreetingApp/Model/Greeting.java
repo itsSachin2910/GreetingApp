@@ -2,17 +2,12 @@ package com.example.GreetingApp.Model;
 
 
 public class Greeting {
-    private long id;
     private String message;
 
-    public Greeting(long id, String message) {
-        this.id = id;
+    public Greeting(String message) {
         this.message = message;
     }
 
-    public long getId() { return id; }
     public String getMessage() { return message; }
-
-    public void setId(long id) { this.id = id; }
     public void setMessage(String message) { this.message = message; }
 }
