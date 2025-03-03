@@ -1,0 +1,54 @@
+2025-03-03T22:54:48.280+05:30 ERROR 98673 --- [GreetingApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz.greetingapp' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz.greetingapp
+    Value: "DEBUG  # Enable DEBUG logs for this package"
+    Origin: class path resource [application.properties] - 10:42
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Enable DEBUG logs for this package)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-03-03T22:55:38.863+05:30 ERROR 98704 --- [GreetingApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.example.greetingapp' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.example.greetingapp
+    Value: "DEBUG  # Enable DEBUG logs for this package"
+    Origin: class path resource [application.properties] - 10:39
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Enable DEBUG logs for this package)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+

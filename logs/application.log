@@ -1,0 +1,63 @@
+2025-03-03T22:56:44.807+05:30  INFO 98727 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Starting GreetingAppApplication using Java 23.0.2 with PID 98727 (/Users/sachinkumar/Desktop/java/GreetingApp/target/classes started by sachinkumar in /Users/sachinkumar/Desktop/java/GreetingApp)
+2025-03-03T22:56:44.808+05:30 DEBUG 98727 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-03-03T22:56:44.809+05:30  INFO 98727 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T22:56:44.851+05:30  INFO 98727 --- [GreetingApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-03T22:56:44.851+05:30  INFO 98727 --- [GreetingApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-03T22:56:45.202+05:30  INFO 98727 --- [GreetingApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-03T22:56:45.212+05:30  INFO 98727 --- [GreetingApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-03-03T22:56:45.471+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 6060 (http)
+2025-03-03T22:56:45.479+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T22:56:45.479+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T22:56:45.498+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T22:56:45.498+05:30  INFO 98727 --- [GreetingApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 646 ms
+2025-03-03T22:56:45.557+05:30  INFO 98727 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-03T22:56:45.638+05:30  INFO 98727 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bf283907-a348-4095-b74e-120ab50a5ba0 user=SA
+2025-03-03T22:56:45.639+05:30  INFO 98727 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-03T22:56:45.668+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-03T22:56:45.704+05:30  INFO 98727 --- [GreetingApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-03-03T22:56:45.728+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-03T22:56:45.880+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-03T22:56:46.059+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-03T22:56:46.061+05:30  INFO 98727 --- [GreetingApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T22:56:46.091+05:30  WARN 98727 --- [GreetingApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-03T22:56:46.234+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bf283907-a348-4095-b74e-120ab50a5ba0'
+2025-03-03T22:56:46.257+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-03T22:56:46.273+05:30  INFO 98727 --- [GreetingApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6060 (http) with context path '/'
+2025-03-03T22:56:46.279+05:30  INFO 98727 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Started GreetingAppApplication in 1.718 seconds (process running for 1.96)
+2025-03-03T22:57:01.544+05:30  INFO 98727 --- [GreetingApp] [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T22:57:01.545+05:30  INFO 98727 --- [GreetingApp] [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T22:57:01.548+05:30  INFO 98727 --- [GreetingApp] [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-03T22:57:31.468+05:30  INFO 98727 --- [GreetingApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T22:57:31.478+05:30  WARN 98727 --- [GreetingApp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2025-03-03T22:57:31.478+05:30  INFO 98727 --- [GreetingApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-03T22:57:31.480+05:30  INFO 98727 --- [GreetingApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-03T22:59:50.754+05:30  INFO 98768 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Starting GreetingAppApplication using Java 23.0.2 with PID 98768 (/Users/sachinkumar/Desktop/java/GreetingApp/target/classes started by sachinkumar in /Users/sachinkumar/Desktop/java/GreetingApp)
+2025-03-03T22:59:50.756+05:30 DEBUG 98768 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-03-03T22:59:50.757+05:30  INFO 98768 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T22:59:50.794+05:30  INFO 98768 --- [GreetingApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-03T22:59:50.795+05:30  INFO 98768 --- [GreetingApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-03T22:59:51.153+05:30  INFO 98768 --- [GreetingApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-03T22:59:51.162+05:30  INFO 98768 --- [GreetingApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-03-03T22:59:51.432+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 6060 (http)
+2025-03-03T22:59:51.440+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T22:59:51.440+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T22:59:51.458+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T22:59:51.459+05:30  INFO 98768 --- [GreetingApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2025-03-03T22:59:51.522+05:30  INFO 98768 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-03T22:59:51.603+05:30  INFO 98768 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:97f7cc35-dccb-436d-ae8b-b021ee9175b4 user=SA
+2025-03-03T22:59:51.604+05:30  INFO 98768 --- [GreetingApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-03T22:59:51.630+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-03T22:59:51.663+05:30  INFO 98768 --- [GreetingApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-03-03T22:59:51.683+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-03T22:59:51.821+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-03T22:59:52.016+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-03T22:59:52.018+05:30  INFO 98768 --- [GreetingApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T22:59:52.050+05:30  WARN 98768 --- [GreetingApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-03T22:59:52.193+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:97f7cc35-dccb-436d-ae8b-b021ee9175b4'
+2025-03-03T22:59:52.215+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-03T22:59:52.234+05:30  INFO 98768 --- [GreetingApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6060 (http) with context path '/'
+2025-03-03T22:59:52.240+05:30  INFO 98768 --- [GreetingApp] [restartedMain] c.e.GreetingApp.GreetingAppApplication   : Started GreetingAppApplication in 1.726 seconds (process running for 2.02)
+2025-03-03T23:00:17.884+05:30  INFO 98768 --- [GreetingApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T23:00:17.890+05:30  WARN 98768 --- [GreetingApp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2025-03-03T23:00:17.890+05:30  INFO 98768 --- [GreetingApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-03T23:00:17.891+05:30  INFO 98768 --- [GreetingApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
