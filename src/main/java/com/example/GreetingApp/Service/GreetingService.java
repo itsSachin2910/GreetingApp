@@ -1,9 +1,13 @@
 package com.example.GreetingApp.Service;
 
 
+
 import com.example.GreetingApp.Model.Greeting;
-import com.example.GreetingApp.Model.User;
+
+import java.util.List;
 
 public interface GreetingService {
-    Greeting getGreeting(User user);
+    Greeting saveGreeting(String message);
+    List<Greeting> getAllGreetings();
 }
+
