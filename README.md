@@ -1,1 +1,1 @@
-# GreetingApp
+# GreetingAppRestAPI
