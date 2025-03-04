@@ -32,5 +32,11 @@ public class GreetingController {
         return greetingService.getGreetingById(id);
     }
 
+    // Get All Greetings
+    @GetMapping
+    public List<Greeting> getAllGreetings() {
+        return greetingService.getAllGreetings();
+    }
+
 
 }
